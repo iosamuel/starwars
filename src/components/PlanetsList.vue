@@ -4,7 +4,7 @@ import SortBy from "./SortBy.vue";
 import { computed, ref } from "vue";
 import { shortNumber, isUnknown } from "../utils";
 
-const { results } = await fetch("http://swapi.dev/api/planets").then((res) =>
+const { results } = await fetch("https://swapi.dev/api/planets").then((res) =>
   res.json()
 );
 
